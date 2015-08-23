@@ -1,0 +1,19 @@
+{
+  "name": "crimemapstatic",
+  "version": "0.0.1",
+  "authors": [
+    "nsulistiyawan <aburamesino@gmail.com>"
+  ],
+  "description": "crime map",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "leaflet": "~0.7.3",
+  }
+}
