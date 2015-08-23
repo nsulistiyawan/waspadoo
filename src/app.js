@@ -13,7 +13,7 @@ var markerClusters = L.markerClusterGroup({
 
 var crimeLocation = null;
 
-oboe('/data/crimelocation.json')
+oboe('/waspadoo/data/crimelocation.json')
   .done(function(result) {
     var data = result.data;
     crimeLocation = data;
