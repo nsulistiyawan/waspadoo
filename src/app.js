@@ -10,9 +10,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 var markerClusters = L.markerClusterGroup({
   disableClusteringAtZoom: 14
 });
-
 var crimeLocation = null;
-
 oboe('/waspadoo/data/crimelocation.json')
   .done(function(result) {
     var data = result.data;
