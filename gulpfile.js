@@ -14,6 +14,13 @@ gulp.task('optimizejs', function() {
     .pipe(gulp.dest('dist'));
 });
 
+gulp.task('copy',function () {
+  return gulp.src([
+      'bower_components/leaflet/dist/images/*.png'
+    ])
+    .pipe(gulp.dest('dist'));
+});
+
 gulp.task('optimizecss', function() {
   return gulp.src([
       'bower_components/leaflet/dist/leaflet.css',
